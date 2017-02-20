@@ -1,0 +1,26 @@
+/*添加一种字体,名字设为 "Emblema One"以便以后使用,给出链接 */
+@font-face {
+	font-family: "Emblema One";
+	src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
+		 url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
+}
+
+body {
+	font-family : Verdana, Geneva, Arial, sans-serief;
+	font-size: small;
+}
+h1{
+	font-family: "Emblema One", sans-serief;
+	font-size: 220%;
+}
+h2 {
+	font-size: 1.3em;
+	font-weight: normal;
+}
+blockquote{
+	font-style: italic;
+}
+h1, h2 {
+	color: #c60;
+	border-bottom: 1px dotted #888;
+}

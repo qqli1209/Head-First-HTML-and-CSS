@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Starbuzz Bean Machine</title>
+	<link type = "text/css" rel = "stylesheet" href = "styledform.css">
+    <link type = "text/css" rel = "stylesheet" 
+	href = "../../source Code/Chapter12/starbuzz/starbuzz.css">
+  </head>
+  <body>
+
+    <h1>The Starbuzz Bean Machine</h1>
+    <h2>Fill out the form below and click submit to order</h2>
+
+	<form action = "http://starbuzzcoffee.com/processorder.php" 
+	 method = "POST">
+	</form> 
+	<div class = "tableRow"> 
+	<p>
+	Choose your beans:
+	</p>
+	<p>
+	<select name = "beans">
+		<option value = "HouseBlend">House Blend</option>
+		<option value = "ShadeCrown">Shade Crown</option>
+		<option value = "BoliviaSupremo">Bolivia Supremo</option>
+		<option value = "OrganicGuatemala">Organic Guatemala</option>
+		<option value = "Kenya">Kenya</option>
+	</select>
+	</p>
+	</div>
+	
+	<div class = "tableRow">
+	<p>
+	Type:
+	</p>
+	<p>
+	<input type = "radio" name = "beantype" 
+	value = "whole">
+	<label for = "Whole_bean">Whole bean</label> <br>
+	<input type = "radio" name = "beantype" 
+	value = "ground_bean" checked>
+	<label for = "Ground">Ground</label> <br>
+	</p>
+	</div>
+	
+	<div class = "tableRow">
+	<p>
+	<label for = "bags">Number of bags:</label>
+	</p>
+	<p>
+	<input type = "number" name = "bags"
+	min = "0" max = "10">
+	</p>
+	</div>
+	
+	<div class = "tableRow">
+	<p>
+	Must arival by date:
+	</p>
+	<p>
+	<input type = "date" name = "date">
+	</p>
+	</div>
+	
+	<div class = "tableRow">
+	<p>
+	Extras: 
+	</p>
+	<p>
+	<input type = "checkbox" name = "extras[]" 
+	value = "giftwrap">Gift warp<br>
+	<input type = "checkbox" name = "extras[]" 
+	value = "catalog" checked>Include Catalog with order
+	</p>
+	</div>
+	
+	<div class = "tableRow">
+	<p class = "heading">
+	ship to 
+	</p>
+	<p></p>
+	</div>
+	
+	<div class = "tableRow">
+	<p>
+	Name:
+	</p>
+	<p>
+	<input type = "text" name = "name">
+	</p>
+	</div>
+	
+	<div class = "tableRow">
+	<p>
+	Adress:
+	</p>
+	<p>
+	<input type = "text" name = "adress">
+	</p>
+	</div>
+	
+	<div class = "tableRow">
+	<p>
+	City:
+	</p>
+	<p>
+	<input type = "text" name = "city"> 
+	</p>
+	</div>
+	
+	<div class = "tableRow">
+	<p>
+	State:
+	</p>
+	<p>
+	<input type = "text" name = "state"> 
+	</p>
+	</div>
+	
+	<div class = "tableRow">
+	<p>
+	zip:
+	</p>
+	<p>
+	<input type = "text" name = "zip"> 
+	</p>
+	</div>
+	
+	<div class = "tableRow">
+	<p>
+	Phone:
+	</p>
+	<p>
+	<input type = "tel" name = "phone"> 
+	</p>
+	</div>
+	
+	<div class = "tableRow">
+	<p>
+	Customer Comments: 
+	</p>
+	<p>
+	<textarea name = "comments" rows = "10" cols = "48"></textarea> <br>
+	</p>
+	</div>
+	
+	<div class = "tableRow">
+	<p>
+	<input type = "submit" value = "Order Now">
+	</p>
+	<p></p>
+	</div>
+	
+  </body>
+</html>
+

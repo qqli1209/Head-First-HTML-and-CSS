@@ -1,0 +1,31 @@
+body{
+	font-family : sans-serif;
+}
+em {
+	font-family: serif;
+}
+/*select all paragraphs and set their color as maroon */
+p  {
+	color : maroon;
+}
+
+p.blueberry {
+	color : purple;
+}
+
+p.greentea {
+	color : green;
+}
+
+p.respberry {
+	color : blue;
+}
+		
+h1,h2 {
+	color : gray;
+}
+			
+h1 {
+	/*text-decoration:underline;*/
+	border-bottom : 1px black solid;
+}
